@@ -26,11 +26,18 @@
   --vidro: rgba(255, 255, 255, 0.35);
   --desfoco: rgba(59, 133, 245, 0.74);
   --cinza: #d4d4d4;
+  --cinzaclaro: #F8F9FA;
+  --cinzabackground: #F0F0F0;
   --cinzaescuro: #444444;
   --bronze: rgb(185, 119, 42);
   --prata: rgb(133, 133, 133);
   --ouro: rgb(255, 215, 0);
   --diamante: rgb(94, 167, 198);
+  --body-font: 'Lora';
+  --title-font: 'Poppins';
+  --subtitle-font: 'Roboto';
+  --sans: 'Merriweather';
+
 
 }
 
@@ -46,6 +53,15 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--background);
   color:var(--texto);
+}
+
+.section-mapa{
+  background-color: var(--cinzaclaro);
+}
+
+
+.text{
+  font-family: 'Poppins';
 }
 
 a {
@@ -64,16 +80,26 @@ h1,h2,h3,h4,h5,h6,p{
 
 .texto-destaque{
   display: flex;
+  font-family: var(--body-font);
+  font-size: 35px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  white-space: nowrap;
+  white-space: wrap;
+  width: 100%;
   color: var(--texto);
   text-align: center;
-  margin-top: 20px;
-  border-bottom: 0.4px solid black;
+  margin-top: 0;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 3rem 0 0 0;
+}
+
+.linha-divisoria {
+  border: none;
+  border-top: 5px solid var(--detalhe);
+  width: 80px; /* tamanho horizontal da linha divisória */
+  margin: 20px auto; /* espaçamento acima e abaixo da linha e alinhamento horizontal */
 }
 
 .titulo-mapa, .texto-mapa{
@@ -140,6 +166,21 @@ h1,h2,h3,h4,h5,h6,p{
 .botoes{
   width: fit-content;
   margin: 0 auto;
+}
+
+.apresentacao{
+  background-color: var(--cinzaclaro);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 0 0 35px 0;
+}
+
+.apresentacao p{
+  max-width: 800px;
+  text-align: center;
+  
 }
 
 @media screen and (min-width: 1024px) {
