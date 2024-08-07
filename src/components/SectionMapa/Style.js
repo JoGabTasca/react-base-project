@@ -15,6 +15,12 @@ const Section = styled.section`
         width: 100%; /* adicione essa linha */
     }
 
+    .img_mapa{
+        width: 268px;
+        height: 590px;
+        border-radius: 25px;
+        margin-bottom: -2rem;
+    }
 
     .section-mapa{
         background-color: var(--cinzaclaro);

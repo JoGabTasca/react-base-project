@@ -30,7 +30,7 @@ const SectionMapa = () => {
             </div>
             <div className="right">
                 <div className="containerMapa">
-                    <Mapa pontos={pontos} />
+                    <img src="imagens/Imagem-MapaCelular-PasseioCarioca.jpg" alt="Mapa do Rio de Janeiro" className="img_mapa" />
                 </div>
             </div>
         </Section>

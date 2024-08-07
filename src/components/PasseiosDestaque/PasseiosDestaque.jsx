@@ -20,8 +20,7 @@ const PasseiosDestaque= (props) => {
         onMouseOver={() => setShowText(true)}
         onMouseLeave={() =>setShowText(false)}
         >
-        <CardPasseio
-        onClick={() => window.location.href = `/#/passeios/${props.passeioId}`}>
+        <CardPasseio >
             {props.passeioId}
                 <Titulo
                 mostrar={ShowText? ShowText.toString(): undefined}
