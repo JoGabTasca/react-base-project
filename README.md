@@ -1,6 +1,8 @@
-# React Base Project
+# React Base Project - Passeio Carioca
 
-Esse é um projeto de uma aplicação base usando React e Firebase construído com motivações didáticas.
+Esse é um projeto de uma aplicação base usando React e Firebase construído com motivações didáticas para o projeto Passeio Carioca.
+
+Website construído: [https://eve.mange.li/](https://eve.mange.li)
 
 ## Documentação
 - https://github.com/paula-luiza/front-end-grupo : Link para documentação do projeto
